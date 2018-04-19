@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+  squares = Array.new
+  array.each { |x| squares.push(x*x) }
 end
